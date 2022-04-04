@@ -1,56 +1,76 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 .body {
-    margin: 0;
-    padding: 0;
 }
+.wrapper {
+    overflow: hidden;
+}
+
+ul, li {
+    list-style: none;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: "Roboto";
+  }
+
 .header {
-    padding: 30px 0px;
-   
+  padding: 30px 0px;
+
 }
 
 .header__container {
-    max-width: 1032px;
-    display: flex;
-    justify-content: flex-end;
-    
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .nav__list {
-    display: flex;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-     
+  display: flex;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 400px;
 }
 
 .nav__link {
-    color: white;
-    margin-left: 67px;
+  color: white;
+  margin-left: 67px;
+
 }
 
-.backround{
-    height: 100vh;
-    background: linear-gradient(90deg, red 30%, Black 30%);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+.backround {
+  height: 100vh;
+  background: linear-gradient(90deg, red 30%, Black 30%);
+  background-size: cover;
 }
 .Hero__title {
-    font-size:250px;
-    color: aliceblue;
-    margin-left: 110px;
-    margin-bottom: 100px;
+  font-size: 350px;
+  color: aliceblue;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  font-family: "Roboto";
 }
 .hero__img {
-    margin-top: -500px;
+  margin-top: -500px;
+  margin-left: 200px;
 }
 .title__iconcar {
-    color: white;
-
+  color:  #000000;
+  font-family: "Roboto";
+  margin-top: 25px;
+  
 }
-
 .block__caricon {
- 
+   display: flex;
+}
+.img__search {
+    margin-right: 600px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
 }
